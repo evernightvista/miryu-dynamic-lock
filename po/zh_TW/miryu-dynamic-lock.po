@@ -1,0 +1,180 @@
+# Traditional Chinese translations for Miryu Dynamic Lock.
+# Copyright (C) 2026 The Miryu Dynamic Lock contributors
+# This file is distributed under the same license as the miryu-dynamic-lock package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: miryu-dynamic-lock 1.0.0\n"
+"Report-Msgid-Bugs-To: https://invent.kde.org/miryu/dynamic-lock\n"
+"PO-Revision-Date: 2026-10-13 00:00+0800\n"
+"Last-Translator: Miryu Dynamic Lock contributors\n"
+"Language-Team: Chinese (Traditional) <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Miryu Dynamic Lock"
+msgstr "Miryu 動態鎖定"
+
+msgid "Automatically lock the KDE screen when the paired phone is taken away."
+msgstr "當配對的手機被帶走時自動鎖定 KDE 螢幕。"
+
+msgid "Dynamic Bluetooth screen locker for KDE Plasma."
+msgstr "適用於 KDE Plasma 的動態藍牙鎖定工具。"
+
+msgctxt "@info:notification"
+msgid "Phone disconnected"
+msgstr "手機已斷開"
+
+msgctxt "@info:notification"
+msgid "Locking the screen in %1 second."
+msgid_plural "Locking the screen in %1 seconds."
+msgstr[0] "%1 秒後鎖定螢幕。"
+
+msgctxt "@info:notification"
+msgid "Phone reconnected"
+msgstr "手機已重新連線"
+
+msgctxt "@info:notification"
+msgid "Pending screen lock cancelled."
+msgstr "已取消待執行的鎖定。"
+
+msgctxt "@info:warning"
+msgid "This computer does not have Bluetooth support. You cannot use this feature."
+msgstr "此電腦沒有藍牙支援，您無法使用該功能。"
+
+msgctxt "@info:status"
+msgid "Bluetooth is not available on this computer."
+msgstr "此電腦上沒有藍牙。"
+
+msgctxt "@option:check"
+msgid "Enable Miryu Dynamic Lock"
+msgstr "啟用 Miryu 動態鎖定"
+
+msgctxt "@title:group"
+msgid "Lock behavior"
+msgstr "鎖定行為"
+
+msgctxt "suffix for seconds"
+msgid " s"
+msgstr " 秒"
+
+msgctxt "@label:spinbox"
+msgid "Lock delay after the phone is taken away:"
+msgstr "手機被帶走後延遲鎖定的時間："
+
+msgctxt "@option:check"
+msgid "Cancel a pending lock when the phone reconnects"
+msgstr "手機重新連線時取消待執行的鎖定"
+
+msgctxt "@option:check"
+msgid "Show a desktop notification before locking"
+msgstr "鎖定前顯示桌面通知"
+
+msgctxt "@title:group"
+msgid "Paired phone"
+msgstr "配對的手機"
+
+msgctxt "@action:button"
+msgid "Refresh"
+msgstr "重新整理"
+
+msgctxt "@label:listbox"
+msgid "Bluetooth device:"
+msgstr "藍牙裝置："
+
+msgctxt "@info:label"
+msgid ""
+"Pair your phone in the KDE Bluetooth settings first, then press Refresh to "
+"populate this list. When the selected phone leaves Bluetooth range, the "
+"screen will lock after the configured delay."
+msgstr ""
+"請先在 KDE 藍牙設定中配對手機，然後點擊「重新整理」填充此清單。當選定的手機離開藍牙"
+"範圍後，螢幕將在設定的延遲時間後鎖定。"
+
+msgctxt "@info:status"
+msgid "BlueZ D-Bus service is not available."
+msgstr "BlueZ D-Bus 服務無法使用。"
+
+msgctxt "@info:status"
+msgid "Could not query BlueZ: %1"
+msgstr "無法查詢 BlueZ：%1"
+
+msgctxt "@item:inlistbox"
+msgid "No device (disabled)"
+msgstr "無裝置（已停用）"
+
+msgctxt "@info:inlistbox appended status"
+msgid " — connected"
+msgstr " — 已連線"
+
+msgctxt "@info:status"
+msgid ""
+"No paired Bluetooth devices found. Pair a device in the KDE Bluetooth "
+"settings first."
+msgstr "找不到已配對的藍牙裝置。請先在 KDE 藍牙設定中配對裝置。"
+
+msgctxt "@info:status"
+msgid "%1 paired device found."
+msgid_plural "%1 paired devices found."
+msgstr[0] "找到 %1 個已配對的裝置。"
+
+msgid "Master switch for the dynamic lock."
+msgstr "動態鎖定的總開關。"
+
+msgid "When enabled, the screen will lock automatically when the paired phone is taken away."
+msgstr "啟用後，當配對的手機被帶走時將自動鎖定螢幕。"
+
+msgid "Number of seconds to wait after the phone is taken away before locking the screen."
+msgstr "手機被帶走後到鎖定螢幕之間等待的秒數。"
+
+msgid "The delay in seconds between the phone leaving Bluetooth range and the screen being locked."
+msgstr "手機離開藍牙範圍到螢幕被鎖定之間的延遲（秒）。"
+
+msgid "Bluetooth hardware address (MAC) of the paired phone to monitor."
+msgstr "要監控的配對手機的藍牙硬體位址（MAC）。"
+
+msgid "Only disconnections of this device will trigger the dynamic lock."
+msgstr "只有此裝置的斷開才會觸發動態鎖定。"
+
+msgid "Cancel a pending lock if the phone reconnects before the timeout expires."
+msgstr "如果手機在逾時到期前重新連線，則取消待執行的鎖定。"
+
+msgid "When enabled, reconnecting the phone within the lock timeout cancels the pending screen lock."
+msgstr "啟用後，在鎖定逾時內重新連線手機將取消待執行的鎖定。"
+
+msgctxt "@label:spinbox"
+msgid "Signal strength threshold:"
+msgstr "訊號強度閾值："
+
+msgctxt "suffix for dBm"
+msgid " dBm"
+msgstr " dBm"
+
+msgctxt "@info:label"
+msgid ""
+"The phone is treated as taken away once its Bluetooth signal drops below this "
+"value. Higher values (e.g. -65 dBm) lock at a shorter distance; lower values "
+"(e.g. -85 dBm) lock only at a greater distance."
+msgstr ""
+"當手機的藍牙訊號強度低於此值時，手機即視為已被帶走。數值越高（例如 -65 dBm）越近就會"
+"鎖定；數值越低（例如 -85 dBm）則要離得更遠才會鎖定。"
+
+msgid "Bluetooth signal strength (RSSI) below which the phone is considered away."
+msgstr "手機被視為已遠離的藍牙訊號強度（RSSI）閾值。"
+
+msgid ""
+"When the measured signal strength of the paired phone drops below this value "
+"(in dBm, e.g. -75), the phone is treated as taken away and the lock countdown "
+"starts. Lower (more negative) values only trigger at a greater distance."
+msgstr ""
+"當配對手機測得的訊號強度低於此值（單位 dBm，例如 -75）時，手機即視為已被帶走並開始"
+"鎖定倒數。數值越低（越負）則要離得更遠才會觸發。"
+
+msgid "Show a desktop notification before locking the screen."
+msgstr "鎖定螢幕前顯示桌面通知。"
+
+msgid "When enabled, a notification is shown when the phone is taken away and the lock countdown starts."
+msgstr "啟用後，當手機被帶走並開始鎖定倒數時會顯示通知。"

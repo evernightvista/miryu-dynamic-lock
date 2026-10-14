@@ -1,0 +1,190 @@
+# French translations for Miryu Dynamic Lock.
+# Copyright (C) 2026 The Miryu Dynamic Lock contributors
+# This file is distributed under the same license as the miryu-dynamic-lock package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: miryu-dynamic-lock 1.0.0\n"
+"Report-Msgid-Bugs-To: https://invent.kde.org/miryu/dynamic-lock\n"
+"PO-Revision-Date: 2026-10-13 00:00+0200\n"
+"Last-Translator: Miryu Dynamic Lock contributors\n"
+"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Miryu Dynamic Lock"
+msgstr "Miryu Dynamic Lock"
+
+msgid "Automatically lock the KDE screen when the paired phone is taken away."
+msgstr "Verrouille automatiquement l'écran KDE lorsque le téléphone jumelé est éloigné."
+
+msgid "Dynamic Bluetooth screen locker for KDE Plasma."
+msgstr "Verrouillage dynamique d'écran Bluetooth pour KDE Plasma."
+
+msgctxt "@info:notification"
+msgid "Phone disconnected"
+msgstr "Téléphone déconnecté"
+
+msgctxt "@info:notification"
+msgid "Locking the screen in %1 second."
+msgid_plural "Locking the screen in %1 seconds."
+msgstr[0] "Verrouillage de l'écran dans %1 seconde."
+msgstr[1] "Verrouillage de l'écran dans %1 secondes."
+
+msgctxt "@info:notification"
+msgid "Phone reconnected"
+msgstr "Téléphone reconnecté"
+
+msgctxt "@info:notification"
+msgid "Pending screen lock cancelled."
+msgstr "Verrouillage d'écran en attente annulé."
+
+msgctxt "@info:warning"
+msgid "This computer does not have Bluetooth support. You cannot use this feature."
+msgstr "Cet ordinateur ne prend pas en charge Bluetooth. Vous ne pouvez pas utiliser cette fonctionnalité."
+
+msgctxt "@info:status"
+msgid "Bluetooth is not available on this computer."
+msgstr "Bluetooth n'est pas disponible sur cet ordinateur."
+
+msgctxt "@option:check"
+msgid "Enable Miryu Dynamic Lock"
+msgstr "Activer Miryu Dynamic Lock"
+
+msgctxt "@title:group"
+msgid "Lock behavior"
+msgstr "Comportement de verrouillage"
+
+msgctxt "suffix for seconds"
+msgid " s"
+msgstr " s"
+
+msgctxt "@label:spinbox"
+msgid "Lock delay after the phone is taken away:"
+msgstr "Délai de verrouillage après l'éloignement du téléphone :"
+
+msgctxt "@option:check"
+msgid "Cancel a pending lock when the phone reconnects"
+msgstr "Annuler un verrouillage en attente lors de la reconnexion du téléphone"
+
+msgctxt "@option:check"
+msgid "Show a desktop notification before locking"
+msgstr "Afficher une notification sur le bureau avant de verrouiller"
+
+msgctxt "@title:group"
+msgid "Paired phone"
+msgstr "Téléphone jumelé"
+
+msgctxt "@action:button"
+msgid "Refresh"
+msgstr "Actualiser"
+
+msgctxt "@label:listbox"
+msgid "Bluetooth device:"
+msgstr "Périphérique Bluetooth :"
+
+msgctxt "@info:label"
+msgid ""
+"Pair your phone in the KDE Bluetooth settings first, then press Refresh to "
+"populate this list. When the selected phone leaves Bluetooth range, the "
+"screen will lock after the configured delay."
+msgstr ""
+"Jumelez d'abord votre téléphone dans les paramètres Bluetooth de KDE, puis "
+"appuyez sur Actualiser pour remplir cette liste. Lorsque le téléphone "
+"sélectionné quitte la portée Bluetooth, l'écran se verrouillera après le "
+"délai configuré."
+
+msgctxt "@info:status"
+msgid "BlueZ D-Bus service is not available."
+msgstr "Le service D-Bus BlueZ n'est pas disponible."
+
+msgctxt "@info:status"
+msgid "Could not query BlueZ: %1"
+msgstr "Impossible d'interroger BlueZ : %1"
+
+msgctxt "@item:inlistbox"
+msgid "No device (disabled)"
+msgstr "Aucun périphérique (désactivé)"
+
+msgctxt "@info:inlistbox appended status"
+msgid " — connected"
+msgstr " — connecté"
+
+msgctxt "@info:status"
+msgid ""
+"No paired Bluetooth devices found. Pair a device in the KDE Bluetooth "
+"settings first."
+msgstr ""
+"Aucun périphérique Bluetooth jumelé trouvé. Jumelez d'abord un périphérique "
+"dans les paramètres Bluetooth de KDE."
+
+msgctxt "@info:status"
+msgid "%1 paired device found."
+msgid_plural "%1 paired devices found."
+msgstr[0] "%1 périphérique jumelé trouvé."
+msgstr[1] "%1 périphériques jumelés trouvés."
+
+msgid "Master switch for the dynamic lock."
+msgstr "Interrupteur principal du verrouillage dynamique."
+
+msgid "When enabled, the screen will lock automatically when the paired phone is taken away."
+msgstr "Si activé, l'écran se verrouille automatiquement lorsque le téléphone jumelé est éloigné."
+
+msgid "Number of seconds to wait after the phone is taken away before locking the screen."
+msgstr "Nombre de secondes à attendre après l'éloignement du téléphone avant de verrouiller l'écran."
+
+msgid "The delay in seconds between the phone leaving Bluetooth range and the screen being locked."
+msgstr "Le délai en secondes entre le moment où le téléphone quitte la portée Bluetooth et le verrouillage de l'écran."
+
+msgid "Bluetooth hardware address (MAC) of the paired phone to monitor."
+msgstr "Adresse matérielle Bluetooth (MAC) du téléphone jumelé à surveiller."
+
+msgid "Only disconnections of this device will trigger the dynamic lock."
+msgstr "Seules les déconnexions de ce périphérique déclencheront le verrouillage dynamique."
+
+msgid "Cancel a pending lock if the phone reconnects before the timeout expires."
+msgstr "Annuler un verrouillage en attente si le téléphone se reconnecte avant l'expiration du délai."
+
+msgid "When enabled, reconnecting the phone within the lock timeout cancels the pending screen lock."
+msgstr "Si activé, la reconnexion du téléphone pendant le délai de verrouillage annule le verrouillage d'écran en attente."
+
+msgctxt "@label:spinbox"
+msgid "Signal strength threshold:"
+msgstr "Seuil d'intensité du signal :"
+
+msgctxt "suffix for dBm"
+msgid " dBm"
+msgstr " dBm"
+
+msgctxt "@info:label"
+msgid ""
+"The phone is treated as taken away once its Bluetooth signal drops below this "
+"value. Higher values (e.g. -65 dBm) lock at a shorter distance; lower values "
+"(e.g. -85 dBm) lock only at a greater distance."
+msgstr ""
+"Le téléphone est considéré comme éloigné dès que son signal Bluetooth passe "
+"sous cette valeur. Une valeur plus élevée (p. ex. -65 dBm) verrouille à une "
+"distance plus courte ; une valeur plus basse (p. ex. -85 dBm) ne verrouille "
+"qu'à une distance plus grande."
+
+msgid "Bluetooth signal strength (RSSI) below which the phone is considered away."
+msgstr "Intensité du signal Bluetooth (RSSI) en dessous de laquelle le téléphone est considéré comme éloigné."
+
+msgid ""
+"When the measured signal strength of the paired phone drops below this value "
+"(in dBm, e.g. -75), the phone is treated as taken away and the lock countdown "
+"starts. Lower (more negative) values only trigger at a greater distance."
+msgstr ""
+"Lorsque l'intensité du signal mesurée du téléphone jumelé passe sous cette "
+"valeur (en dBm, p. ex. -75), le téléphone est considéré comme emporté et le "
+"compte à rebours de verrouillage démarre. Des valeurs plus basses (plus "
+"négatives) ne se déclenchent qu'à une distance plus grande."
+
+msgid "Show a desktop notification before locking the screen."
+msgstr "Afficher une notification sur le bureau avant de verrouiller l'écran."
+
+msgid "When enabled, a notification is shown when the phone is taken away and the lock countdown starts."
+msgstr "Si activé, une notification s'affiche lorsque le téléphone est éloigné et que le compte à rebours de verrouillage démarre."

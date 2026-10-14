@@ -1,0 +1,44 @@
+{
+    "KPlugin": {
+        "Id": "kcm_miryudynamiclock",
+        "Name": "Miryu Dynamic Lock",
+        "Name[zh_CN]": "Miryu 动态锁屏",
+        "Name[zh_TW]": "Miryu 動態鎖定",
+        "Name[ja]": "Miryu ダイナミックロック",
+        "Name[de]": "Miryu Dynamic Lock",
+        "Name[fr]": "Miryu Dynamic Lock",
+        "Name[ko]": "Miryu 동적 잠금",
+        "Description": "Automatically lock the KDE screen when the paired phone is taken away",
+        "Description[zh_CN]": "当配对的手机被拿走时自动锁定 KDE 屏幕",
+        "Description[zh_TW]": "當配對的手機被帶走時自動鎖定 KDE 螢幕",
+        "Description[ja]": "ペアリングしたスマートフォンが離れたときに KDE の画面を自動的にロックします",
+        "Description[de]": "KDE-Bildschirm automatisch sperren, wenn das gekoppelte Handy entfernt wird",
+        "Description[fr]": "Verrouille automatiquement l'écran KDE lorsque le téléphone jumelé est éloigné",
+        "Description[ko]": "페어링된 휴대전화가 멀어지면 KDE 화면을 자동으로 잠급니다",
+        "Icon": "preferences-system-bluetooth",
+        "Category": "security-privacy",
+        "License": "GPL-2.0-or-later",
+        "Version": "1.0.0",
+        "Website": "https://invent.kde.org/miryu/dynamic-lock",
+        "Authors": [
+            {
+                "Name": "Miryu Dynamic Lock contributors"
+            }
+        ],
+        "Copyright": "© 2026 Miryu Dynamic Lock contributors"
+    },
+    "I18n": {
+        "DefaultDomain": "miryu-dynamic-lock"
+    },
+    "X-KDE-System-Settings-Parent-Category": "security-privacy",
+    "X-KDE-Weight": 50,
+    "OnlyShowIn": "KDE;",
+    "X-KDE-Keywords": "bluetooth,phone,lock,screen,dynamic,pair",
+    "X-KDE-Keywords[zh_CN]": "蓝牙,手机,锁屏,动态,配对",
+    "X-KDE-Keywords[zh_TW]": "藍牙,手機,鎖定,動態,配對",
+    "X-KDE-Keywords[de]": "bluetooth,handy,sperren,bildschirm,dynamisch,koppeln",
+    "X-KDE-Keywords[ja]": "bluetooth,スマートフォン,ロック,画面,動的,ペアリング",
+    "X-KDE-Keywords[fr]": "bluetooth,téléphone,verrouillage,écran,dynamique,jumelage",
+    "X-KDE-Keywords[ko]": "bluetooth,휴대전화,잠금,화면,동적,페어링",
+    "X-KDE-TranslationDomain": "miryu-dynamic-lock"
+}

@@ -1,0 +1,185 @@
+# Korean translations for Miryu Dynamic Lock.
+# Copyright (C) 2026 The Miryu Dynamic Lock contributors
+# This file is distributed under the same license as the miryu-dynamic-lock package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: miryu-dynamic-lock 1.0.0\n"
+"Report-Msgid-Bugs-To: https://invent.kde.org/miryu/dynamic-lock\n"
+"PO-Revision-Date: 2026-10-13 00:00+0900\n"
+"Last-Translator: Miryu Dynamic Lock contributors\n"
+"Language-Team: Korean <kde-i18n-doc@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Miryu Dynamic Lock"
+msgstr "Miryu 동적 잠금"
+
+msgid "Automatically lock the KDE screen when the paired phone is taken away."
+msgstr "페어링된 휴대전화가 멀어지면 KDE 화면을 자동으로 잠급니다."
+
+msgid "Dynamic Bluetooth screen locker for KDE Plasma."
+msgstr "KDE Plasma용 동적 Bluetooth 화면 잠금 도구."
+
+msgctxt "@info:notification"
+msgid "Phone disconnected"
+msgstr "휴대전화 연결 끊김"
+
+msgctxt "@info:notification"
+msgid "Locking the screen in %1 second."
+msgid_plural "Locking the screen in %1 seconds."
+msgstr[0] "%1초 후 화면을 잠급니다."
+
+msgctxt "@info:notification"
+msgid "Phone reconnected"
+msgstr "휴대전화가 다시 연결됨"
+
+msgctxt "@info:notification"
+msgid "Pending screen lock cancelled."
+msgstr "대기 중인 화면 잠금이 취소되었습니다."
+
+msgctxt "@info:warning"
+msgid "This computer does not have Bluetooth support. You cannot use this feature."
+msgstr "이 컴퓨터에는 블루투스 지원이 없습니다. 이 기능을 사용할 수 없습니다."
+
+msgctxt "@info:status"
+msgid "Bluetooth is not available on this computer."
+msgstr "이 컴퓨터에서는 블루투스를 사용할 수 없습니다."
+
+msgctxt "@option:check"
+msgid "Enable Miryu Dynamic Lock"
+msgstr "Miryu 동적 잠금 활성화"
+
+msgctxt "@title:group"
+msgid "Lock behavior"
+msgstr "잠금 동작"
+
+msgctxt "suffix for seconds"
+msgid " s"
+msgstr " 초"
+
+msgctxt "@label:spinbox"
+msgid "Lock delay after the phone is taken away:"
+msgstr "휴대전화가 멀어진 후 잠금 지연 시간:"
+
+msgctxt "@option:check"
+msgid "Cancel a pending lock when the phone reconnects"
+msgstr "휴대전화가 다시 연결되면 대기 중인 잠금 취소"
+
+msgctxt "@option:check"
+msgid "Show a desktop notification before locking"
+msgstr "잠금 전 데스크톱 알림 표시"
+
+msgctxt "@title:group"
+msgid "Paired phone"
+msgstr "페어링된 휴대전화"
+
+msgctxt "@action:button"
+msgid "Refresh"
+msgstr "새로 고침"
+
+msgctxt "@label:listbox"
+msgid "Bluetooth device:"
+msgstr "Bluetooth 장치:"
+
+msgctxt "@info:label"
+msgid ""
+"Pair your phone in the KDE Bluetooth settings first, then press Refresh to "
+"populate this list. When the selected phone leaves Bluetooth range, the "
+"screen will lock after the configured delay."
+msgstr ""
+"먼저 KDE Bluetooth 설정에서 휴대전화를 페어링한 다음, 새로 고침을 눌러 이 목록을 "
+"채우세요. 선택한 휴대전화가 Bluetooth 범위를 벗어나면 설정된 지연 시간 후에 화면"
+"이 잠깁니다."
+
+msgctxt "@info:status"
+msgid "BlueZ D-Bus service is not available."
+msgstr "BlueZ D-Bus 서비스를 사용할 수 없습니다."
+
+msgctxt "@info:status"
+msgid "Could not query BlueZ: %1"
+msgstr "BlueZ를 조회할 수 없습니다: %1"
+
+msgctxt "@item:inlistbox"
+msgid "No device (disabled)"
+msgstr "장치 없음 (비활성화)"
+
+msgctxt "@info:inlistbox appended status"
+msgid " — connected"
+msgstr " — 연결됨"
+
+msgctxt "@info:status"
+msgid ""
+"No paired Bluetooth devices found. Pair a device in the KDE Bluetooth "
+"settings first."
+msgstr ""
+"페어링된 Bluetooth 장치를 찾을 수 없습니다. 먼저 KDE Bluetooth 설정에서 장치를 "
+"페어링하세요."
+
+msgctxt "@info:status"
+msgid "%1 paired device found."
+msgid_plural "%1 paired devices found."
+msgstr[0] "페어링된 장치 %1개를 찾았습니다."
+
+msgid "Master switch for the dynamic lock."
+msgstr "동적 잠금의 메인 스위치."
+
+msgid "When enabled, the screen will lock automatically when the paired phone is taken away."
+msgstr "활성화하면 페어링된 휴대전화가 멀어질 때 화면을 자동으로 잠급니다."
+
+msgid "Number of seconds to wait after the phone is taken away before locking the screen."
+msgstr "휴대전화가 멀어진 후 화면을 잠그기 전까지 대기할 초 단위 시간."
+
+msgid "The delay in seconds between the phone leaving Bluetooth range and the screen being locked."
+msgstr "휴대전화가 Bluetooth 범위를 벗어나고 화면이 잠기기까지의 지연 시간(초)."
+
+msgid "Bluetooth hardware address (MAC) of the paired phone to monitor."
+msgstr "감시할 페어링된 휴대전화의 Bluetooth 하드웨어 주소(MAC)."
+
+msgid "Only disconnections of this device will trigger the dynamic lock."
+msgstr "이 장치의 연결 끊김만 동적 잠금을 실행합니다."
+
+msgid "Cancel a pending lock if the phone reconnects before the timeout expires."
+msgstr "시간 초과 전에 휴대전화가 다시 연결되면 대기 중인 잠금을 취소합니다."
+
+msgid "When enabled, reconnecting the phone within the lock timeout cancels the pending screen lock."
+msgstr "활성화하면 잠금 시간 초과 내에 휴대전화가 다시 연결될 때 대기 중인 화면 잠금을 취소합니다."
+
+msgctxt "@label:spinbox"
+msgid "Signal strength threshold:"
+msgstr "신호 강도 임계값:"
+
+msgctxt "suffix for dBm"
+msgid " dBm"
+msgstr " dBm"
+
+msgctxt "@info:label"
+msgid ""
+"The phone is treated as taken away once its Bluetooth signal drops below this "
+"value. Higher values (e.g. -65 dBm) lock at a shorter distance; lower values "
+"(e.g. -85 dBm) lock only at a greater distance."
+msgstr ""
+"휴대전화의 Bluetooth 신호 강도가 이 값 아래로 떨어지면 멀어진 것으로 간주합니다. 값이 "
+"높을수록(예: -65 dBm) 더 가까운 거리에서 잠기고, 값이 낮을수록(예: -85 dBm) 더 멀어야 "
+"잠깁니다."
+
+msgid "Bluetooth signal strength (RSSI) below which the phone is considered away."
+msgstr "휴대전화가 멀어진 것으로 간주되는 Bluetooth 신호 강도(RSSI) 기준값."
+
+msgid ""
+"When the measured signal strength of the paired phone drops below this value "
+"(in dBm, e.g. -75), the phone is treated as taken away and the lock countdown "
+"starts. Lower (more negative) values only trigger at a greater distance."
+msgstr ""
+"페어링된 휴대전화의 측정된 신호 강도가 이 값(단위 dBm, 예: -75) 아래로 떨어지면 휴대전화"
+"가 멀어진 것으로 간주하여 잠금 카운트다운을 시작합니다. 값이 낮을수록(더 음수일수록) 더 "
+"멀어야 작동합니다."
+
+msgid "Show a desktop notification before locking the screen."
+msgstr "화면을 잠그기 전에 데스크톱 알림을 표시합니다."
+
+msgid "When enabled, a notification is shown when the phone is taken away and the lock countdown starts."
+msgstr "활성화하면 휴대전화가 멀어지고 잠금 카운트다운이 시작될 때 알림을 표시합니다."

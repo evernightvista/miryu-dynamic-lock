@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+    SPDX-License-Identifier: GPL-2.0-or-later
+    SPDX-FileCopyrightText: 2026 Miryu Dynamic Lock contributors
+    Application icon for Miryu Dynamic Lock: a Bluetooth-style combined "M"
+    rune enclosed in a padlock, using the Breeze blue palette.
+-->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3daee9"/>
+      <stop offset="1" stop-color="#1d99f3"/>
+    </linearGradient>
+    <linearGradient id="lock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e8f6ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect x="3" y="3" width="42" height="42" rx="9" ry="9" fill="url(#bg)"/>
+
+  <!-- Padlock shackle -->
+  <path d="M24 9 a7 7 0 0 1 7 7 v5 h-3 v-5 a4 4 0 0 0 -8 0 v5 h-3 v-5 a7 7 0 0 1 7 -7 z"
+        fill="none" stroke="#ffffff" stroke-width="2.4"/>
+
+  <!-- Lock body -->
+  <rect x="13" y="21" width="22" height="17" rx="3.5" ry="3.5" fill="url(#lock)"/>
+
+  <!-- Bluetooth rune inside the lock body -->
+  <path d="M24 24 L24 35 M24 24 L28 27 L20 31 L28 35 L20 39"
+        fill="none" stroke="#1d99f3" stroke-width="2.4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 24 L20 27 L28 31 L24 35"
+        fill="none" stroke="#1d99f3" stroke-width="2.4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

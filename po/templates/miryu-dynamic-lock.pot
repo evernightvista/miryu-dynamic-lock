@@ -1,0 +1,227 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The Miryu Dynamic Lock contributors
+# This file is distributed under the same license as the miryu-dynamic-lock package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: miryu-dynamic-lock 1.0.0\n"
+"Report-Msgid-Bugs-To: https://invent.kde.org/miryu/dynamic-lock\n"
+"PO-Revision-Date: 2026-10-13 00:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/daemon/main.cpp:27 src/kcm/kcm_miryudynamiclock.json:5
+msgid "Miryu Dynamic Lock"
+msgstr ""
+
+#: src/daemon/main.cpp:29
+msgid "Automatically lock the KDE screen when the paired phone is taken away."
+msgstr ""
+
+#: src/daemon/main.cpp:32
+msgid "Dynamic Bluetooth screen locker for KDE Plasma."
+msgstr ""
+
+#: src/daemon/miryu_daemon.cpp:103
+msgctxt "@info:notification"
+msgid "Phone disconnected"
+msgstr ""
+
+#: src/daemon/miryu_daemon.cpp:104
+msgctxt "@info:notification"
+msgid "Locking the screen in %1 second."
+msgid_plural "Locking the screen in %1 seconds."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/daemon/miryu_daemon.cpp:111
+msgctxt "@info:notification"
+msgid "Phone reconnected"
+msgstr ""
+
+#: src/daemon/miryu_daemon.cpp:113
+msgctxt "@info:notification"
+msgid "Pending screen lock cancelled."
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:81
+msgctxt "@info:warning"
+msgid "This computer does not have Bluetooth support. You cannot use this feature."
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:211
+msgctxt "@info:status"
+msgid "Bluetooth is not available on this computer."
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:45
+msgctxt "@option:check"
+msgid "Enable Miryu Dynamic Lock"
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:49
+msgctxt "@title:group"
+msgid "Lock behavior"
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:57
+msgctxt "suffix for seconds"
+msgid " s"
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:60
+msgctxt "@label:spinbox"
+msgid "Lock delay after the phone is taken away:"
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:63
+msgctxt "@option:check"
+msgid "Cancel a pending lock when the phone reconnects"
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:66
+msgctxt "@option:check"
+msgid "Show a desktop notification before locking"
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:71
+msgctxt "@title:group"
+msgid "Paired phone"
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:78
+msgctxt "@action:button"
+msgid "Refresh"
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:82
+msgctxt "@label:listbox"
+msgid "Bluetooth device:"
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:96
+msgctxt "@info:label"
+msgid ""
+"Pair your phone in the KDE Bluetooth settings first, then press Refresh to "
+"populate this list. When the selected phone leaves Bluetooth range, the "
+"screen will lock after the configured delay."
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:124
+msgctxt "@info:status"
+msgid "BlueZ D-Bus service is not available."
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:133
+msgctxt "@info:status"
+msgid "Could not query BlueZ: %1"
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:162
+msgctxt "@item:inlistbox"
+msgid "No device (disabled)"
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:170
+msgctxt "@info:inlistbox appended status"
+msgid " — connected"
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:181
+msgctxt "@info:status"
+msgid ""
+"No paired Bluetooth devices found. Pair a device in the KDE Bluetooth "
+"settings first."
+msgstr ""
+
+#: src/kcm/kcm_miryudynamiclock.cpp:185
+msgctxt "@info:status"
+msgid "%1 paired device found."
+msgid_plural "%1 paired devices found."
+msgstr[0] ""
+msgstr[1] ""
+
+#. i18n: KConfigXT schema labels
+#: src/common/miryuconfig.kcfg:14
+msgid "Master switch for the dynamic lock."
+msgstr ""
+
+#: src/common/miryuconfig.kcfg:15
+msgid ""
+"When enabled, the screen will lock automatically when the paired phone is "
+"taken away."
+msgstr ""
+
+#: src/common/miryuconfig.kcfg:20
+msgid ""
+"Number of seconds to wait after the phone is taken away before locking the "
+"screen."
+msgstr ""
+
+#: src/common/miryuconfig.kcfg:21
+msgid ""
+"The delay in seconds between the phone leaving Bluetooth range and the "
+"screen being locked."
+msgstr ""
+
+#: src/common/miryuconfig.kcfg:26
+msgid "Bluetooth hardware address (MAC) of the paired phone to monitor."
+msgstr ""
+
+#: src/common/miryuconfig.kcfg:27
+msgid "Only disconnections of this device will trigger the dynamic lock."
+msgstr ""
+
+#: src/common/miryuconfig.kcfg:32
+msgid "Cancel a pending lock if the phone reconnects before the timeout expires."
+msgstr ""
+
+#: src/common/miryuconfig.kcfg:33
+msgid ""
+"When enabled, reconnecting the phone within the lock timeout cancels the "
+"pending screen lock."
+msgstr ""
+
+#: src/kcm/ui/main.qml:113
+msgctxt "@label:spinbox"
+msgid "Signal strength threshold:"
+msgstr ""
+
+#: src/kcm/ui/main.qml:119
+msgctxt "suffix for dBm"
+msgid " dBm"
+msgstr ""
+
+#: src/kcm/ui/main.qml:141
+msgctxt "@info:label"
+msgid ""
+"The phone is treated as taken away once its Bluetooth signal drops below this "
+"value. Higher values (e.g. -65 dBm) lock at a shorter distance; lower values "
+"(e.g. -85 dBm) lock only at a greater distance."
+msgstr ""
+
+#: src/common/miryuconfig.kcfg:24
+msgid "Bluetooth signal strength (RSSI) below which the phone is considered away."
+msgstr ""
+
+#: src/common/miryuconfig.kcfg:25
+msgid ""
+"When the measured signal strength of the paired phone drops below this value "
+"(in dBm, e.g. -75), the phone is treated as taken away and the lock countdown "
+"starts. Lower (more negative) values only trigger at a greater distance."
+msgstr ""
+
+#: src/common/miryuconfig.kcfg:38
+msgid "Show a desktop notification before locking the screen."
+msgstr ""
+
+#: src/common/miryuconfig.kcfg:39
+msgid ""
+"When enabled, a notification is shown when the phone is taken away and the "
+"lock countdown starts."
+msgstr ""

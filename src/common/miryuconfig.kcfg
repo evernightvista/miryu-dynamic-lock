@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name="miryu-dynamic-lockrc"/>
+
+  <group name="General">
+    <entry name="Enabled" type="Bool">
+      <label>Master switch for the dynamic lock.</label>
+      <whatsthis>When enabled, the screen will lock automatically when the paired phone is taken away.</whatsthis>
+      <default>false</default>
+    </entry>
+
+    <entry name="LockTimeout" type="Int">
+      <label>Number of seconds to wait after the phone is taken away before locking the screen.</label>
+      <whatsthis>The delay in seconds between the phone leaving Bluetooth range and the screen being locked.</whatsthis>
+      <default>15</default>
+      <min>1</min>
+      <max>600</max>
+    </entry>
+
+    <entry name="RssiThreshold" type="Int">
+      <label>Bluetooth signal strength (RSSI) below which the phone is considered away.</label>
+      <whatsthis>When the measured signal strength of the paired phone drops below this value (in dBm, e.g. -75), the phone is treated as taken away and the lock countdown starts. Lower (more negative) values only trigger at a greater distance.</whatsthis>
+      <default>-75</default>
+      <min>-100</min>
+      <max>0</max>
+    </entry>
+
+    <entry name="DeviceAddress" type="String">
+      <label>Bluetooth hardware address (MAC) of the paired phone to monitor.</label>
+      <whatsthis>Only disconnections of this device will trigger the dynamic lock.</whatsthis>
+      <default></default>
+    </entry>
+
+    <entry name="CancelOnReconnect" type="Bool">
+      <label>Cancel a pending lock if the phone reconnects before the timeout expires.</label>
+      <whatsthis>When enabled, reconnecting the phone within the lock timeout cancels the pending screen lock.</whatsthis>
+      <default>true</default>
+    </entry>
+
+    <entry name="NotifyBeforeLock" type="Bool">
+      <label>Show a desktop notification before locking the screen.</label>
+      <whatsthis>When enabled, a notification is shown when the phone is taken away and the lock countdown starts.</whatsthis>
+      <default>true</default>
+    </entry>
+  </group>
+</kcfg>

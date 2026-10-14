@@ -1,0 +1,20 @@
+[Unit]
+Description=Miryu Dynamic Lock Bluetooth screen locker
+Description[zh_CN]=Miryu 动态锁屏蓝牙锁屏守护
+Description[de]=Miryu Dynamic Lock Bluetooth-Bildschirmsperre
+Documentation=https://invent.kde.org/miryu/dynamic-lock
+After=bluetooth.target graphical-session.target
+Wants=bluetooth.service
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=@CMAKE_INSTALL_FULL_BINDIR@/miryu-dynamic-lock
+Restart=on-failure
+RestartSec=5
+# Keep the daemon in the user session so it can talk to the session D-Bus
+# (ScreenSaver, Notifications) and read the per-user config file.
+Slice=session.slice
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,201 @@
+# German translations for Miryu Dynamic Lock.
+# Copyright (C) 2026 The Miryu Dynamic Lock contributors
+# This file is distributed under the same license as the miryu-dynamic-lock package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: miryu-dynamic-lock 1.0.0\n"
+"Report-Msgid-Bugs-To: https://invent.kde.org/miryu/dynamic-lock\n"
+"PO-Revision-Date: 2026-10-13 00:00+0200\n"
+"Last-Translator: Miryu Dynamic Lock contributors\n"
+"Language-Team: German <kde-i18n-doc@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Miryu Dynamic Lock"
+msgstr "Miryu Dynamic Lock"
+
+msgid "Automatically lock the KDE screen when the paired phone is taken away."
+msgstr ""
+"KDE-Bildschirm automatisch sperren, wenn das gekoppelte Handy entfernt wird."
+
+msgid "Dynamic Bluetooth screen locker for KDE Plasma."
+msgstr "Dynamische Bluetooth-Bildschirmsperre für KDE Plasma."
+
+msgctxt "@info:notification"
+msgid "Phone disconnected"
+msgstr "Handy getrennt"
+
+msgctxt "@info:notification"
+msgid "Locking the screen in %1 second."
+msgid_plural "Locking the screen in %1 seconds."
+msgstr[0] "Bildschirm wird in %1 Sekunde gesperrt."
+msgstr[1] "Bildschirm wird in %1 Sekunden gesperrt."
+
+msgctxt "@info:notification"
+msgid "Phone reconnected"
+msgstr "Handy wieder verbunden"
+
+msgctxt "@info:notification"
+msgid "Pending screen lock cancelled."
+msgstr "Ausstehende Bildschirmsperre abgebrochen."
+
+msgctxt "@info:warning"
+msgid "This computer does not have Bluetooth support. You cannot use this feature."
+msgstr "Dieser Computer hat keine Bluetooth-Unterstützung. Sie können diese Funktion nicht verwenden."
+
+msgctxt "@info:status"
+msgid "Bluetooth is not available on this computer."
+msgstr "Bluetooth ist auf diesem Computer nicht verfügbar."
+
+msgctxt "@option:check"
+msgid "Enable Miryu Dynamic Lock"
+msgstr "Miryu Dynamic Lock aktivieren"
+
+msgctxt "@title:group"
+msgid "Lock behavior"
+msgstr "Sperrverhalten"
+
+msgctxt "suffix for seconds"
+msgid " s"
+msgstr " s"
+
+msgctxt "@label:spinbox"
+msgid "Lock delay after the phone is taken away:"
+msgstr "Sperrverzögerung, nachdem das Handy entfernt wurde:"
+
+msgctxt "@option:check"
+msgid "Cancel a pending lock when the phone reconnects"
+msgstr "Ausstehende Sperre abbrechen, wenn das Handy wieder verbunden wird"
+
+msgctxt "@option:check"
+msgid "Show a desktop notification before locking"
+msgstr "Vor dem Sperren eine Arbeitsflächen-Benachrichtigung anzeigen"
+
+msgctxt "@title:group"
+msgid "Paired phone"
+msgstr "Gekoppeltes Handy"
+
+msgctxt "@action:button"
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+msgctxt "@label:listbox"
+msgid "Bluetooth device:"
+msgstr "Bluetooth-Gerät:"
+
+msgctxt "@info:label"
+msgid ""
+"Pair your phone in the KDE Bluetooth settings first, then press Refresh to "
+"populate this list. When the selected phone leaves Bluetooth range, the "
+"screen will lock after the configured delay."
+msgstr ""
+"Koppeln Sie Ihr Handy zuerst in den KDE-Bluetooth-Einstellungen und drücken "
+"Sie dann auf Aktualisieren, um diese Liste zu füllen. Wenn das ausgewählte "
+"Handy den Bluetooth-Bereich verlässt, wird der Bildschirm nach der "
+"eingestellten Verzögerung gesperrt."
+
+msgctxt "@info:status"
+msgid "BlueZ D-Bus service is not available."
+msgstr "BlueZ-D-Bus-Dienst ist nicht verfügbar."
+
+msgctxt "@info:status"
+msgid "Could not query BlueZ: %1"
+msgstr "BlueZ konnte nicht abgefragt werden: %1"
+
+msgctxt "@item:inlistbox"
+msgid "No device (disabled)"
+msgstr "Kein Gerät (deaktiviert)"
+
+msgctxt "@info:inlistbox appended status"
+msgid " — connected"
+msgstr " — verbunden"
+
+msgctxt "@info:status"
+msgid ""
+"No paired Bluetooth devices found. Pair a device in the KDE Bluetooth "
+"settings first."
+msgstr ""
+"Keine gekoppelten Bluetooth-Geräte gefunden. Koppeln Sie zuerst ein Gerät in "
+"den KDE-Bluetooth-Einstellungen."
+
+msgctxt "@info:status"
+msgid "%1 paired device found."
+msgid_plural "%1 paired devices found."
+msgstr[0] "%1 gekoppeltes Gerät gefunden."
+msgstr[1] "%1 gekoppelte Geräte gefunden."
+
+msgid "Master switch for the dynamic lock."
+msgstr "Hauptschalter für die dynamische Sperre."
+
+msgid "When enabled, the screen will lock automatically when the paired phone is taken away."
+msgstr ""
+"Wenn aktiviert, wird der Bildschirm automatisch gesperrt, wenn das gekoppelte "
+"Handy entfernt wird."
+
+msgid "Number of seconds to wait after the phone is taken away before locking the screen."
+msgstr ""
+"Anzahl der Sekunden, die nach dem Entfernen des Handys gewartet wird, bevor "
+"der Bildschirm gesperrt wird."
+
+msgid "The delay in seconds between the phone leaving Bluetooth range and the screen being locked."
+msgstr ""
+"Die Verzögerung in Sekunden zwischen dem Verlassen des Bluetooth-Bereichs "
+"durch das Handy und der Sperrung des Bildschirms."
+
+msgid "Bluetooth hardware address (MAC) of the paired phone to monitor."
+msgstr "Bluetooth-Hardwareadresse (MAC) des zu überwachenden gekoppelten Handys."
+
+msgid "Only disconnections of this device will trigger the dynamic lock."
+msgstr "Nur das Trennen dieses Geräts löst die dynamische Sperre aus."
+
+msgid "Cancel a pending lock if the phone reconnects before the timeout expires."
+msgstr ""
+"Eine ausstehende Sperre abbrechen, wenn das Handy vor Ablauf der Frist wieder "
+"verbunden wird."
+
+msgid "When enabled, reconnecting the phone within the lock timeout cancels the pending screen lock."
+msgstr ""
+"Wenn aktiviert, bricht ein erneutes Verbinden des Handys innerhalb der "
+"Sperrfrist die ausstehende Bildschirmsperre ab."
+
+msgctxt "@label:spinbox"
+msgid "Signal strength threshold:"
+msgstr "Schwellenwert der Signalstärke:"
+
+msgctxt "suffix for dBm"
+msgid " dBm"
+msgstr " dBm"
+
+msgctxt "@info:label"
+msgid ""
+"The phone is treated as taken away once its Bluetooth signal drops below this "
+"value. Higher values (e.g. -65 dBm) lock at a shorter distance; lower values "
+"(e.g. -85 dBm) lock only at a greater distance."
+msgstr ""
+"Das Telefon gilt als entfernt, sobald seine Bluetooth-Signalstärke unter diesen "
+"Wert fällt. Höhere Werte (z. B. -65 dBm) sperren schon bei geringerer "
+"Entfernung, niedrigere Werte (z. B. -85 dBm) erst bei größerer Entfernung."
+
+msgid "Bluetooth signal strength (RSSI) below which the phone is considered away."
+msgstr "Bluetooth-Signalstärke (RSSI), unterhalb derer das Telefon als entfernt gilt."
+
+msgid ""
+"When the measured signal strength of the paired phone drops below this value "
+"(in dBm, e.g. -75), the phone is treated as taken away and the lock countdown "
+"starts. Lower (more negative) values only trigger at a greater distance."
+msgstr ""
+"Fällt die gemessene Signalstärke des gekoppelten Telefons unter diesen Wert (in "
+"dBm, z. B. -75), gilt das Telefon als entfernt und der Sperr-Countdown beginnt. "
+"Niedrigere (negativere) Werte lösen erst bei größerer Entfernung aus."
+
+msgid "Show a desktop notification before locking the screen."
+msgstr "Eine Arbeitsflächen-Benachrichtigung vor dem Sperren des Bildschirms anzeigen."
+
+msgid "When enabled, a notification is shown when the phone is taken away and the lock countdown starts."
+msgstr ""
+"Wenn aktiviert, wird eine Benachrichtigung angezeigt, wenn das Handy entfernt "
+"wird und der Sperr-Countdown beginnt."

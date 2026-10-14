@@ -1,0 +1,188 @@
+# Japanese translations for Miryu Dynamic Lock.
+# Copyright (C) 2026 The Miryu Dynamic Lock contributors
+# This file is distributed under the same license as the miryu-dynamic-lock package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: miryu-dynamic-lock 1.0.0\n"
+"Report-Msgid-Bugs-To: https://invent.kde.org/miryu/dynamic-lock\n"
+"PO-Revision-Date: 2026-10-13 00:00+0900\n"
+"Last-Translator: Miryu Dynamic Lock contributors\n"
+"Language-Team: Japanese <kde-i18n-doc@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Miryu Dynamic Lock"
+msgstr "Miryu ダイナミックロック"
+
+msgid "Automatically lock the KDE screen when the paired phone is taken away."
+msgstr "ペアリングしたスマートフォンが離れたときに KDE の画面を自動的にロックします。"
+
+msgid "Dynamic Bluetooth screen locker for KDE Plasma."
+msgstr "KDE Plasma 向けの動的 Bluetooth 画面ロックツール。"
+
+msgctxt "@info:notification"
+msgid "Phone disconnected"
+msgstr "スマートフォンが切断されました"
+
+msgctxt "@info:notification"
+msgid "Locking the screen in %1 second."
+msgid_plural "Locking the screen in %1 seconds."
+msgstr[0] "%1 秒後に画面をロックします。"
+
+msgctxt "@info:notification"
+msgid "Phone reconnected"
+msgstr "スマートフォンが再接続されました"
+
+msgctxt "@info:notification"
+msgid "Pending screen lock cancelled."
+msgstr "保留中の画面ロックをキャンセルしました。"
+
+msgctxt "@info:warning"
+msgid "This computer does not have Bluetooth support. You cannot use this feature."
+msgstr "このコンピューターには Bluetooth サポートがありません。この機能は使用できません。"
+
+msgctxt "@info:status"
+msgid "Bluetooth is not available on this computer."
+msgstr "このコンピューターでは Bluetooth を利用できません。"
+
+msgctxt "@option:check"
+msgid "Enable Miryu Dynamic Lock"
+msgstr "Miryu ダイナミックロックを有効にする"
+
+msgctxt "@title:group"
+msgid "Lock behavior"
+msgstr "ロックの動作"
+
+msgctxt "suffix for seconds"
+msgid " s"
+msgstr " 秒"
+
+msgctxt "@label:spinbox"
+msgid "Lock delay after the phone is taken away:"
+msgstr "スマートフォンが離れてからロックするまでの遅延:"
+
+msgctxt "@option:check"
+msgid "Cancel a pending lock when the phone reconnects"
+msgstr "スマートフォンが再接続したら保留中のロックをキャンセル"
+
+msgctxt "@option:check"
+msgid "Show a desktop notification before locking"
+msgstr "ロック前にデスクトップ通知を表示"
+
+msgctxt "@title:group"
+msgid "Paired phone"
+msgstr "ペアリングしたスマートフォン"
+
+msgctxt "@action:button"
+msgid "Refresh"
+msgstr "更新"
+
+msgctxt "@label:listbox"
+msgid "Bluetooth device:"
+msgstr "Bluetooth デバイス:"
+
+msgctxt "@info:label"
+msgid ""
+"Pair your phone in the KDE Bluetooth settings first, then press Refresh to "
+"populate this list. When the selected phone leaves Bluetooth range, the "
+"screen will lock after the configured delay."
+msgstr ""
+"まず KDE の Bluetooth 設定でスマートフォンをペアリングし、その後「更新」を押してこ"
+"のリストに追加してください。選択したスマートフォンが Bluetooth の範囲を離れると、設"
+"定した遅延時間の経過後に画面がロックされます。"
+
+msgctxt "@info:status"
+msgid "BlueZ D-Bus service is not available."
+msgstr "BlueZ D-Bus サービスを利用できません。"
+
+msgctxt "@info:status"
+msgid "Could not query BlueZ: %1"
+msgstr "BlueZ を照会できませんでした: %1"
+
+msgctxt "@item:inlistbox"
+msgid "No device (disabled)"
+msgstr "デバイスなし（無効）"
+
+msgctxt "@info:inlistbox appended status"
+msgid " — connected"
+msgstr " — 接続中"
+
+msgctxt "@info:status"
+msgid ""
+"No paired Bluetooth devices found. Pair a device in the KDE Bluetooth "
+"settings first."
+msgstr ""
+"ペアリング済みの Bluetooth デバイスが見つかりませんでした。KDE の Bluetooth 設定で"
+"デバイスをペアリングしてください。"
+
+msgctxt "@info:status"
+msgid "%1 paired device found."
+msgid_plural "%1 paired devices found."
+msgstr[0] "ペアリング済みデバイスが %1 件見つかりました。"
+
+msgid "Master switch for the dynamic lock."
+msgstr "動的ロックのメインスイッチ。"
+
+msgid "When enabled, the screen will lock automatically when the paired phone is taken away."
+msgstr "有効な場合、ペアリングしたスマートフォンが離れると自動的に画面をロックします。"
+
+msgid "Number of seconds to wait after the phone is taken away before locking the screen."
+msgstr "スマートフォンが離れてから画面をロックするまでに待機する秒数。"
+
+msgid "The delay in seconds between the phone leaving Bluetooth range and the screen being locked."
+msgstr "スマートフォンが Bluetooth の範囲を離れてから画面がロックされるまでの遅延（秒）。"
+
+msgid "Bluetooth hardware address (MAC) of the paired phone to monitor."
+msgstr "監視対象のペアリング済みスマートフォンの Bluetooth ハードウェアアドレス（MAC）。"
+
+msgid "Only disconnections of this device will trigger the dynamic lock."
+msgstr "このデバイスの切断のみが動的ロックをトリガーします。"
+
+msgid "Cancel a pending lock if the phone reconnects before the timeout expires."
+msgstr "タイムアウト前にスマートフォンが再接続した場合、保留中のロックをキャンセルします。"
+
+msgid "When enabled, reconnecting the phone within the lock timeout cancels the pending screen lock."
+msgstr ""
+"有効な場合、ロックのタイムアウト内にスマートフォンを再接続すると保留中の画面ロックを"
+"キャンセルします。"
+
+msgctxt "@label:spinbox"
+msgid "Signal strength threshold:"
+msgstr "電波強度のしきい値:"
+
+msgctxt "suffix for dBm"
+msgid " dBm"
+msgstr " dBm"
+
+msgctxt "@info:label"
+msgid ""
+"The phone is treated as taken away once its Bluetooth signal drops below this "
+"value. Higher values (e.g. -65 dBm) lock at a shorter distance; lower values "
+"(e.g. -85 dBm) lock only at a greater distance."
+msgstr ""
+"スマートフォンの Bluetooth 電波強度がこの値を下回ると、持ち去られたと判断します。値が"
+"高いほど（例: -65 dBm）近い距離でロックされ、低いほど（例: -85 dBm）遠くならないと"
+"ロックされません。"
+
+msgid "Bluetooth signal strength (RSSI) below which the phone is considered away."
+msgstr "スマートフォンが持ち去られたと見なされる Bluetooth 電波強度（RSSI）。"
+
+msgid ""
+"When the measured signal strength of the paired phone drops below this value "
+"(in dBm, e.g. -75), the phone is treated as taken away and the lock countdown "
+"starts. Lower (more negative) values only trigger at a greater distance."
+msgstr ""
+"ペアリングしたスマートフォンの測定電波強度がこの値（dBm、例: -75）を下回ると、持ち去"
+"られたと判断してロックのカウントダウンを開始します。値が低い（より負の）ほど、より"
+"遠くないと作動しません。"
+
+msgid "Show a desktop notification before locking the screen."
+msgstr "画面をロックする前にデスクトップ通知を表示します。"
+
+msgid "When enabled, a notification is shown when the phone is taken away and the lock countdown starts."
+msgstr ""
+"有効な場合、スマートフォンが離れてロックのカウントダウンが始まると通知を表示します。"

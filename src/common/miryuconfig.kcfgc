@@ -1,0 +1,6 @@
+File=miryuconfig.kcfg
+ClassName=MiryuConfig
+Singleton=true
+Mutators=true
+ItemAccessors=true
+Inherits=KConfigSkeleton
